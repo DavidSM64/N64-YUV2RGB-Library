@@ -3,6 +3,19 @@ A multi-language library for converting between YUV and RGB pixels. For use with
 
 This library is licensed under MIT, so feel free to include the source code into your project(s).
 
+## Assumption
+
+The code in this library assumes that your using the G_SETCONVERT coefficients shown in the table below. If the coefficients you're working with are different, then this library might not work for you.
+
+Constant | Value
+------------ | -------------
+K0 | 175
+K1 | -43
+K2 | -89
+K3 | 222
+K4 | 114
+K5 | 42
+
 ## Languages
 
 * C
